@@ -2,10 +2,9 @@ body {
   background-color: #f04e27;
   color: #fff;
   font-family: "futura-pt", Helvetica, Arial, sans-serif;
-
   margin: 50px;
-  padding: 0 auto;
 }
+
 h1,
 p,
 li {
@@ -16,8 +15,7 @@ h3 {
   font-weight: 400;
 }
 
-p,
-li {
+p {
   font-size: 12px;
 }
 
