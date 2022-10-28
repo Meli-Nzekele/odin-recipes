@@ -4,7 +4,6 @@ body {
   font-family: "futura-pt", Helvetica, Arial, sans-serif;
   margin: 50px;
 }
-
 h1,
 p,
 li {
@@ -22,6 +21,11 @@ p {
 img {
   height: auto;
   width: 60%;
+}
+
+li {
+  font-size: 12px;
+  font-style: italic;
 }
 
 ol {
