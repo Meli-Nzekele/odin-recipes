@@ -1,8 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Major+Mono+Display&display=swap');
+
 body {
   font-family: "futura-pt", Helvetica, Arial, sans-serif;
 }
 
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 40px 0;
+}
+
+nav {
+  margin: 0 auto;
+}
+
 h1 {
+  font-family: 'Major Mono Display', monospace;
   font-size: 48px;
   font-weight: 900;
   letter-spacing: 2px;
@@ -11,10 +25,40 @@ h1 {
   margin: 0 auto;
 }
 
-li {
-  font-size: 16px;
-  margin: 50px 0;
+.nav {
+  display: flex;
+  flex-direction: row;
+  gap:30px;
+}
+
+.nav li {
+  font-family: 'Major Mono Display', monospace;
   list-style-type: none;
+  font-weight: 200;
+}
+
+.main {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.main li {
+  font-size: 16px;
+  list-style-type: none;
+  margin: 0 auto;
+}
+
+
+img {
+  height:600px;
+  width:400px;
+}
+
+figcaption {
+  font-family: 'Major Mono Display', monospace;
+  font-size: 0.5rem;
+  font-style: italic;
 }
 
 .aperol {
@@ -68,4 +112,20 @@ li {
 .espresso {
   font-weight: 100;
   letter-spacing: 4px;
+}
+
+footer {
+  margin: 80px 0 30px;
+  display: flex;
+  justify-content: center;
+}
+
+.footer-icons {
+  font-size: 2.5rem;
+  display: flex;
+  gap: 30px;
+}
+
+.icon-link {
+  color: #000;
 }
