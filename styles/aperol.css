@@ -3,7 +3,16 @@ body {
   color: #fff;
   font-family: "futura-pt", Helvetica, Arial, sans-serif;
   margin: 50px;
+  background-image: url(../images/aperol-brandwall-orange.svg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  /*
+  image original source (no copyright intended/this porject os not for commerical use):
+  https://www.aperolspritzsocials.com/how-to-make-an-aperol-spritz/
+  https://www.aperolspritzsocials.com/wp-content/uploads/2020/06/aperol-brandwall-orange.svg
+  */
 }
+
 h1,
 p,
 li {
